@@ -23,12 +23,17 @@ nav#sidenav {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
+    font-size: 18px;
     font-weight: bold;
+    letter-spacing: 1px;
     li {
+      margin: 5px;
+
       a {
         color: #F0F769;
       }
       &#divider {
+        margin-bottom: 15px;
         border-top: 1px solid;
         color: #E6E6E6;
       }
