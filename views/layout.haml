@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    != css :layout, :sidenav, :content, :media => 'screen'
+  %body
+    #page_wrapper
+      %nav#sidenav
+        = partial :sidenav
+      #content
+        = yield
