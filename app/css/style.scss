@@ -14,10 +14,19 @@ div#content {
 
 nav#sidenav {
   background-image: url(../images/sidenav_background.png);
+
   ul#sidenav_list {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-weight: bold;
     li {
       a {
         color: #F0F769;
+      }
+      &#divider {
+        border-top: 1px solid;
+        color: #E6E6E6;
       }
     }
   }

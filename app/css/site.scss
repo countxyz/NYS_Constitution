@@ -18,6 +18,9 @@ div#page_wrapper {
 nav#sidenav {
   order: 1;
   width: 175px;
+  ul#sidenav_list {
+    padding-left: 0;
+  }
 }
 
 /* main */
