@@ -14,6 +14,9 @@ class NysConstitution < Sinatra::Base
   set :partial_underscores, true
 
   assets do
+    css :layout,  ['/css/layout.css']
+    css :sidenav, ['/css/sidenav.css']
+    css :content, ['/css/content.css']
 
     js_compression :jsmin
     css_compression :sass
