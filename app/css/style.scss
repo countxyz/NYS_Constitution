@@ -1,6 +1,6 @@
 /* universal */
 
-ul li a { text-decoration: none }
+ul li a { text-decoration: none; }
 
 li { list-style-type: none; }
 
@@ -14,4 +14,11 @@ div#content {
 
 nav#sidenav {
   background-image: url(../images/sidenav_background.png);
+  ul#sidenav_list {
+    li {
+      a {
+        color: #F0F769;
+      }
+    }
+  }
 }
