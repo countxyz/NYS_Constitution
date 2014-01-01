@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+ruby '2.0.0'
+
+gem 'sinatra', '~> 1.4.4'
+gem 'sinatra-partial', '~> 0.4.0'
+gem 'sinatra-assetpack', '~> 0.3.1'
+gem 'sinatra-support', '~> 1.2.2'
+gem 'haml', '~> 4.0.4'
+gem 'sass', '~> 3.2.13'
+gem 'compass', '~> 0.12.2'
