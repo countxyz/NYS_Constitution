@@ -1,0 +1,29 @@
+/* universal */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+div#page_wrapper {
+  display: flex;
+  display: -webkit-flex;
+  min-height: 100%;
+}
+
+/* sidenav */
+
+nav#sidenav {
+  order: 1;
+  width: 175px;
+}
+
+/* main */
+
+div#content {
+  flex: 1;
+  -webkit-flex: 1;
+  order: 2;
+}
