@@ -26,12 +26,18 @@ nav#sidenav {
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
+
     li {
       margin: 5px;
 
       a {
         color: #F0F769;
+        &:hover {
+          color: white;
+          text-decoration: underline;
+        }
       }
+      
       &#divider {
         margin-bottom: 15px;
         border-top: 1px solid;
