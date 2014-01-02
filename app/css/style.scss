@@ -42,6 +42,8 @@ div#content {
   }
 }
 
+/* content - articles */
+
 div#content {  
   h1 {
     padding-top: 20px;
@@ -52,6 +54,16 @@ div#content {
       color: #444;
       font-weight: bold;
     }
+  }
+}
+
+ol#article_list {
+  list-style: none;
+  padding-top: 20px;
+  font-size: 20px;
+  
+  li {
+    padding: 10px;
   }
 }
 
