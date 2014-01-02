@@ -18,8 +18,14 @@ div#page_wrapper {
 nav#sidenav {
   order: 1;
   width: 175px;
+  
   ul#sidenav_list {
-    padding-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    li {
+      margin: 5px;
+    }
   }
 }
 

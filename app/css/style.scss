@@ -1,8 +1,6 @@
 /* universal */
 
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
+body { font-family: Georgia, "Times New Roman", Times, serif; }
 
 ul li a { text-decoration: none; }
 
@@ -12,6 +10,36 @@ li { list-style-type: none; }
 
 div#content {
   background-image: url(../images/content_background.png);
+
+  section#title_page {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+
+    h1 {
+    }
+    p {
+      font-size: 20px;
+
+      &#title_bottom {
+        padding-bottom: 25px;
+      }
+    }
+    
+    hr.title_break {
+      margin: 10px;
+      border: 0;
+      height: 1px;
+      background-image: -webkit-linear-gradient(left, rgba(0,0,0,0),
+        rgba(0,0,0,0.75), rgba(0,0,0,0));
+      background-image:    -moz-linear-gradient(left, rgba(0,0,0,0),
+        rgba(0,0,0,0.75), rgba(0,0,0,0));
+      background-image:     -ms-linear-gradient(left, rgba(0,0,0,0),
+        rgba(0,0,0,0.75), rgba(0,0,0,0));
+      background-image:      -o-linear-gradient(left, rgba(0,0,0,0),
+        rgba(0,0,0,0.75), rgba(0,0,0,0));
+    }
+  }
 }
 
 /* sidenav */
@@ -20,16 +48,12 @@ nav#sidenav {
   background-image: url(../images/sidenav_background.png);
 
   ul#sidenav_list {
-    padding-left: 15px;
-    padding-right: 15px;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 1px;
 
     li {
-      margin: 5px;
-
       a {
         color: #F0F769;
         &:hover {
@@ -46,3 +70,4 @@ nav#sidenav {
     }
   }
 }
+ 
