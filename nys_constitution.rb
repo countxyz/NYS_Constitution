@@ -11,6 +11,7 @@ class NysConstitution < Sinatra::Base
   register Sinatra::AssetPack
   register Sinatra::CompassSupport
 
+  set :title, "New York State Constitution"
   set :partial_underscores, true
 
   assets do
@@ -22,7 +23,13 @@ class NysConstitution < Sinatra::Base
     css_compression :sass
   end
 
-  get "/" do
-    haml :index
+  get ('/') { haml :'articles/title_page' }
+
+  article_range = ('/article_1'..'/article_20').to_a
+
+  article_range.each do |article|
+    get article do
+      haml "articles#{article}".to_sym
+    end
   end
 end
