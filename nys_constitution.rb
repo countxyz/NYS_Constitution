@@ -11,7 +11,6 @@ class NysConstitution < Sinatra::Base
   register Sinatra::AssetPack
   register Sinatra::CompassSupport
 
-  set :title, "New York State Constitution"
   set :partial_underscores, true
 
   assets do
